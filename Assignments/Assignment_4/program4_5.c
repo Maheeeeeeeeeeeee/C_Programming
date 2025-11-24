@@ -1,5 +1,17 @@
 #include<stdio.h>
 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//      Function Name:  FactDiff
+//      Description:    Calculates and returns the difference between the sum of factors
+//                      and the sum of non-factors of a given number
+//      Input:          int
+//      Output:         int
+//      Author:         Mahesh Dhanyakumar Boke
+//      Date:           24/11/2025
+//
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 int FactDiff(int iNo)
 {
     int iCnt = 0, iSumFact = 0, iSumNonFact = 0;
