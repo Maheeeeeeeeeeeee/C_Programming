@@ -1,5 +1,16 @@
 #include<stdio.h>
 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//      Function Name:  ChkEven
+//      Description:    Checks whether a number is even or odd
+//      Input:          int
+//      Output:         bool (true if even, false if odd)
+//      Author:         Mahesh Dhanyakumar Boke
+//      Date:           24/11/2025
+//
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 void PrintEven(int iNo)
 {
     int i = 0;
