@@ -1,5 +1,17 @@
 #include<stdio.h>
 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//      Function Name:  DisplayConvert
+//      Description:    Converts a lowercase character to uppercase and displays it;
+//                      if character is already uppercase, displays it as is
+//      Input:          char
+//      Output:         void
+//      Author:         Mahesh Dhanyakumar Boke
+//      Date:           24/11/2025
+//
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 void DisplayConvert(char CValue) 
 {
     if(CValue >= 'a' && CValue <= 'z') 
