@@ -1,4 +1,16 @@
 #include<stdio.h>
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//      Function Name:  MultFact
+//      Description:    Calculates and returns the product of all factors of a given number
+//      Input:          int
+//      Output:         int
+//      Author:         Mahesh Dhanyakumar Boke
+//      Date:           24/11/2025
+//
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 int MultFact(int iNo)
 {
     int iCnt = 0;
