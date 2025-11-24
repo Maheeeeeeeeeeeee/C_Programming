@@ -1,5 +1,16 @@
 #include<stdio.h>
 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//      Function Name:  SumNonFact
+//      Description:    Calculates and returns the sum of all non-factors of a given number
+//      Input:          int
+//      Output:         int
+//      Author:         Mahesh Dhanyakumar Boke
+//      Date:           24/11/2025
+//
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 int SumNonFact(int iNo)
 {
     int iCnt = 0;
