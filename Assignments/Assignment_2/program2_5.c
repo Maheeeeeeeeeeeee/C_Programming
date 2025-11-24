@@ -1,6 +1,17 @@
 #include<stdio.h>
 #include<stdbool.h>
 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//      Function Name:  ChkEven
+//      Description:    Checks whether a number is even or odd
+//      Input:          int
+//      Output:         bool 
+//      Author:         Mahesh Dhanyakumar Boke
+//      Date:           24/11/2025
+//
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 bool ChkEven(int iNo)
 {
     int iRem = 0;                                               
@@ -32,4 +43,5 @@ int main()
     {   printf("%d is odd number\n", iValue);   }
 
     return 0;
+
 }
