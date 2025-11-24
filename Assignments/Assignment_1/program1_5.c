@@ -1,5 +1,16 @@
 #include<stdio.h>
 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//      Function Name:  Accept
+//      Description:    It is used to print '*' (asterisk) on the screen according to the given number
+//      Input:          int
+//      Output:         None
+//      Author:         Mahesh Dhanyakumar Boke
+//      Date:           24/1/2025
+//
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 void Accept(int iNo)
 {
     int iCnt = 0;
@@ -19,4 +30,5 @@ int main()
     Accept(iValue); 
 
     return 0;
+
 }
