@@ -1,5 +1,17 @@
 #include<stdio.h>
 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//      Function Name:  CheckNumberType
+//      Description:    Determines whether a number is positive, negative, or zero and displays the result
+//      Input:          int
+//      Output:         void
+//      Author:         Mahesh Dhanyakumar Boke
+//      Date:           24/11/2025
+//
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
 void CheckNumberType(int num)
 {
 
