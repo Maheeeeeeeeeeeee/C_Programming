@@ -1,5 +1,16 @@
 #include<stdio.h>
 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//      Function Name:  CheckLeapYear
+//      Description:    Checks whether a given year is a leap year or not and displays the result
+//      Input:          int
+//      Output:         void
+//      Author:         Mahesh Dhanyakumar Boke
+//      Date:           24/11/2025
+//
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 void CheckLeapYear(int year)
 {
     if(year < 0)
