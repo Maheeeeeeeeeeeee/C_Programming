@@ -1,5 +1,16 @@
 #include<stdio.h>
 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//      Function Name:  FindLargest
+//      Description:    Finds and returns the largest among three numbers
+//      Input:          int, int, int
+//      Output:         int
+//      Author:         Mahesh Dhanyakumar Boke
+//      Date:           24/11/2025
+//
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 int FindLargest(int x, int y, int z)
 {
     if(x > y && x > z)
