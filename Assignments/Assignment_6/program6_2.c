@@ -1,6 +1,17 @@
 #include<stdio.h>
 #include<stdbool.h>
 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//      Function Name:  ChkGreater
+//      Description:    Checks whether a number is greater than 100
+//      Input:          int
+//      Output:         bool (true if greater than 100, false otherwise)
+//      Author:         Mahesh Dhanyakumar Boke
+//      Date:           24/11/2025
+//
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 bool ChkGreater(int iNo)
 {
     if(iNo > 100)
