@@ -1,0 +1,58 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//      Function Name:  Display
+//      Description:    Displays all even elements in the array that are divisible by 5
+//      Input:          int[], int
+//      Output:         void
+//      Author:         Mahesh Dhanyakumar Boke
+//      Date:           01-12-2025
+//
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+void Display(int Arr[], int iLength)
+{
+    int iCnt = 0;
+
+    printf("Even Numbers divisible by 5 are : \n");
+    for(iCnt = 0; iCnt < iLength; iCnt++)
+    {
+        if(Arr[iCnt] % 5 == 0 && Arr[iCnt] % 2 == 0)
+        {
+            printf("    %d", Arr[iCnt]);
+        }
+    }
+}
+
+int main()
+{
+    int iSize = 0,iCnt = 0;
+    int *p = NULL;
+    
+    printf("Enter number of elements : ");
+    scanf("%d",&iSize);
+
+    p = (int *)malloc(iSize * sizeof(int));
+
+    if(p == NULL)
+    {
+        printf("Unable to allocate memory");
+        return -1;
+    }
+
+    printf("Enter %d elements : \n",iSize);
+
+    for(iCnt = 0; iCnt < iSize; iCnt++)
+    {
+        printf("    Enter element %d : ",iCnt+1);
+        scanf("%d",&p[iCnt]);
+    }
+
+    Display(p, iSize);
+    
+    free(p);
+    
+    return 0;
+}
